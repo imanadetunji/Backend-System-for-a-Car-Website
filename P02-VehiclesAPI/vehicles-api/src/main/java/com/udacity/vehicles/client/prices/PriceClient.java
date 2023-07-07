@@ -21,7 +21,7 @@ public class PriceClient {
 
     // In a real-world application we'll want to add some resilience
     // to this method with retries/CB/failover capabilities
-    // We may also want to cache the results so we don't need to
+    // We may also want to cache the results, so we don't need to
     // do a request every time
     /**
      * Gets a vehicle price from the pricing client, given vehicle ID.
